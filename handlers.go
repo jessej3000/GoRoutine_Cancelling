@@ -20,7 +20,7 @@ func processRequest(w http.ResponseWriter, r *http.Request) {
 
 	if len(paramValues) > 0 { // If parameters exist then loop through it and make a request
 
-		c := make(chan []byte, 10) // Declare a channel c where results will be returned back
+		c := make(chan []byte) // Declare a channel c where results will be returned back
 		var nums map[string][]int
 		var combinedNumbers []int
 
