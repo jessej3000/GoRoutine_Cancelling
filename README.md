@@ -30,4 +30,4 @@ After all possible values are returned or if the timer timed out. It will cancel
 
 - queryURL: The actual consumption of an endpoint.
 
-- isItemInSlice: This function searches for an interger in the slice and returns true if found and false otherwise. It does this by dividing the search into 3 parts of the slice to somehow make the search have a higher rate of finding the equivalent integer in the slice if there are any.
+- isItemInSlice: This function searches for an interger in the slice and returns true if found and false otherwise. It does this by dividing the search into 3 parts of the slice to somehow make the search have a higher rate of finding the equivalent integer in the slice quickly if there are any.
