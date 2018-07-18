@@ -28,7 +28,7 @@ func processRequest(w http.ResponseWriter, r *http.Request) {
 		var nums map[string][]int
 		var combinedNumbers []int
 
-		ctx := context.Background() // Use context to cancel running child go routines after deadline of 500 miliseconds
+		ctx := context.Background() // Use context to cancel running child go routines after deadline of 450 miliseconds
 		ctx, cancel := context.WithCancel(ctx)
 
 		for _, value := range paramValues {
