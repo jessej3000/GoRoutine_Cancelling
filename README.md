@@ -3,7 +3,8 @@
 
 
 
-# NOTE: The testserver.go needs to be running before the code can be tested.
+# NOTE: 
+The testserver.go needs to be running before the code can be tested.
 
 # To run my code
 1. Download or clone my code "git clone https://github.com/jessej3000/travel_a_answer.git"
