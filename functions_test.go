@@ -250,7 +250,7 @@ func TestRequestNumbersOdd100(t *testing.T) {
 // #############################################################################
 // Testing queryURL if it returns the following. For some reason sometimes it
 // returns blank []byte. Even though with blank []byte the function should not
-// fail and cause andy unwanted errors.
+// fail and cause any unwanted errors.
 //  - service unavailable (Sometimes this appears and sometimes not)
 //  - {"numbers":[2,3,5,7,11,13]}
 //  - {"numbers":[5,17,3,19,76,24,1,5,10,34,8,27,7]}
