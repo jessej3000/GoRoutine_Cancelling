@@ -19,6 +19,8 @@ Program files
 - service.go        - contains func main()
 - handlers.go       - contains request handlers
 - functions.go      - contains supporting functions
+
+Test file
 - functions_test.go - testing for functions
 
 # Some explanation of the functions and handlers
