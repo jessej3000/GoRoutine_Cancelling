@@ -22,9 +22,7 @@ Program files
 - functions_test.go - testing for functions
 
 # Some explanation of the functions and handlers
-- processRequest: This handles request for the endpoint /numbers. It puts all values from url parameters into a slice. And calls and loops through it then calls each url with its individual go routine. The main routine then waits for results or wait for the timeout 450 miliseconds. (I set the timeout to 450 miliseconds to give some allowance for sorting and merging after all possible values are returned).
-
-After all possible values are returned or if the timer timed out. It will cancel all go routines that are still running using context.Withcancel. Then merge the unique values and sort the final slice before sending the result to the client.
+- processRequest: This handles request for the endpoint /numbers. It puts all values from url parameters into a slice. And calls and loops through it then calls each url with its individual go routine. The main routine then waits for results or wait for the timeout 450 miliseconds. (I set the timeout to 450 miliseconds to give some allowance for sorting and merging after all possible values are returned). After all possible values are returned or if the timer timed out. It will cancel all go routines that are still running using context.Withcancel. Then merge the unique values and sort the final slice before sending the result to the client.
 
 - requestNumbers: This function manages individual request. While waiting for the result from individual endpoints it also waits for ctx.Done. If ctx.Done comes first, it will cancel it's operation.
 
