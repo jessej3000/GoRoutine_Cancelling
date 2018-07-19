@@ -415,41 +415,41 @@ func TestIsItemInSlice5(t *testing.T) {
 // TestIsItemInSlice43 test if 43 in [1, 1, 2, 3, 5, 8, 13, 21]. Returns false
 func TestIsItemInSlice43(t *testing.T) {
 	if isItemInSlice(43, []int{1, 1, 2, 3, 5, 8, 13, 21}) {
-		t.Errorf("1 should not be found in [1,1,2,3,5,8,13,21]")
+		t.Errorf("43 should not be found in [1,1,2,3,5,8,13,21]")
 	}
 }
 
 // TestIsItemInSlice13 test if 13 in [1, 1, 2, 3, 5, 8, 13, 21]. Returns true
 func TestIsItemInSlice13(t *testing.T) {
 	if !isItemInSlice(13, []int{1, 1, 2, 3, 5, 8, 13, 21}) {
-		t.Errorf("5 should be in [1,1,2,3,5,8,13,21]")
+		t.Errorf("13 should be in [1,1,2,3,5,8,13,21]")
 	}
 }
 
 // TestIsItemInSlice78 test if 78 in [1,3,5,7,9,11,13,15,17,19,21,23]. Returns false
 func TestIsItemInSlice78(t *testing.T) {
 	if isItemInSlice(78, []int{1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23}) {
-		t.Errorf("1 should not be found in [1,3,5,7,9,11,13,15,17,19,21,23]")
+		t.Errorf("78 should not be found in [1,3,5,7,9,11,13,15,17,19,21,23]")
 	}
 }
 
 // TestIsItemInSlice21 test if 21 in [1,3,5,7,9,11,13,15,17,19,21,23]. Returns true
 func TestIsItemInSlice21(t *testing.T) {
 	if !isItemInSlice(21, []int{1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23}) {
-		t.Errorf("5 should be in [1,3,5,7,9,11,13,15,17,19,21,23]")
+		t.Errorf("21 should be in [1,3,5,7,9,11,13,15,17,19,21,23]")
 	}
 }
 
 // TestIsItemInSlice100 test if 100 in [5, 17, 3, 19, 76, 24, 1, 5, 10, 34, 8, 27, 7]. Returns false
 func TestIsItemInSlice100(t *testing.T) {
 	if isItemInSlice(100, []int{5, 17, 3, 19, 76, 24, 1, 5, 10, 34, 8, 27, 7}) {
-		t.Errorf("1 should not be found in [5, 17, 3, 19, 76, 24, 1, 5, 10, 34, 8, 27, 7]")
+		t.Errorf("100 should not be found in [5, 17, 3, 19, 76, 24, 1, 5, 10, 34, 8, 27, 7]")
 	}
 }
 
 // TestIsItemInSlice24 test if 24 in [5, 17, 3, 19, 76, 24, 1, 5, 10, 34, 8, 27, 7]. Returns true
 func TestIsItemInSlice24(t *testing.T) {
 	if !isItemInSlice(24, []int{5, 17, 3, 19, 76, 24, 1, 5, 10, 34, 8, 27, 7}) {
-		t.Errorf("5 should be in [5, 17, 3, 19, 76, 24, 1, 5, 10, 34, 8, 27, 7]")
+		t.Errorf("24 should be in [5, 17, 3, 19, 76, 24, 1, 5, 10, 34, 8, 27, 7]")
 	}
 }
