@@ -4,7 +4,7 @@
 # NOTE: 
 The test servers or your api servers needs to be running before the code can be tested.
 
-# To run my code
+# To run the code
 1. Download or clone my code "git clone https://github.com/jessej3000/travel_a_answer.git"
 2. Then go into the directory and run "go run service.go handlers.go functions.go"
 
